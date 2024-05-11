@@ -1,0 +1,38 @@
+.image-map-container {
+    position: relative;
+    display: inline-block;
+  }
+.image-map-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+.block-link {
+    position: absolute;
+    display: block;
+  }
+  /* Adjust the position and size of the blocks as needed */
+.block1 {
+    top: 44%;
+    left: 33%;
+    width: 16%;
+    height: 30%;
+    opacity: 20%;
+  }
+ /* Adjust the position and size of the blocks as needed */
+ .block2 {
+    top: 37%;
+    left: 33%;
+    width: 16%;
+    height: 30%;
+    opacity: 20%;
+  }
+   /* Adjust the position and size of the blocks as needed */
+ .block3 {
+    top: 37%;
+    left: 71%;
+    width: 25%;
+    height: 30%;
+    opacity: 20%;
+  }
+  /* Add more styles for additional blocks */
