@@ -58,3 +58,27 @@ function redirectToGoogleForm() {
     var button = document.getElementById("redirectButton2");
     button.style.backgroundColor = "blue"; // Change color to blue
   }
+
+
+  
+  const imageButton = document.getElementById('imageButton');
+  const buttonImage = imageButton.querySelector('img');
+
+  imageButton.addEventListener('mouseenter', function() {
+    buttonImage.style.transform = 'scale(1.1)';
+  });
+
+  imageButton.addEventListener('mouseleave', function() {
+    buttonImage.style.transform = 'scale(1)';
+  });
+
+
+  function showPopup(imageSrc) {
+    $('#modalImage').attr('src', imageSrc);
+    $('#imageModal').modal('show');
+  }
+
+  
+  function showPopupForm() {
+    $('#myModal').modal('show');
+  }

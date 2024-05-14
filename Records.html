@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Image Map with Clickable Blocks</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoomable and Draggable Map</title>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Monumento Congregation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Records.html">Records</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="bg-body-tertiary p-5 rounded">
+<div class="row">
+  <div class="col-md-3">
+    <input type="date" class="form-control" id="firstName" placeholder="From" value="" required="">
+    <div class="invalid-feedback">
+      Valid first name is required.
+    </div>
+  </div>
+
+  <div class="col-md-3">
+      <input type="date" class="form-control" id="firstName" placeholder="To" value="" required="">
+      <div class="invalid-feedback">
+        Valid first name is required.
+      </div>
+  </div>
+
+  <div class="col-md-3">
+    <select class="form-select" id="status" required="">
+      <option value="">Finished</option>
+      <option>Unfinished</option>
+      <option value="">No Preaching Done</option>
+    </select>
+  </div>
+
+  <div class="col-md-3">
+    <button type="button" class="btn btn-primary">Filter</button>
+  </div>
+  
+</div>
+   
+
+
+    <hr class="my-4"> 
+
+
+    <table class="table table-striped shadow">
+      <thead class="table-dark">
+        <th>Address</th>
+        <th>Leader</th>
+        <th>Date Started</th>
+        <th>Date Completed</th>
+        <th>Status</th>
+      </thead>
+      <tbody>
+
+
+        <tr class="table-light">
+          <td>Tolentino St. Monument Block 9A</td>
+          <td>Gelo Cortez</td>
+          <td>May 17, 2024</td>
+          <td>May 17, 2024</td>
+          <td>NO PREACHING DONE</td>
+  
+        </tr>
+
+
+        <tr class="table-light">
+          <td>Tolentino St. Monument Block 9A</td>
+          <td>Gelo Cortez</td>
+          <td>May 14, 2024</td>
+          <td>May 14, 2024</td>
+          <td>Finished</td>
+
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+
+        
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+
+        
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+
+        
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+
+        
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+
+        
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+
+        
+        <tr class="table-light">
+          <td>6th St. Monument Block 12thA</td>
+          <td>Tom Gonzales</td>
+          <td>May 15, 2024</td>
+          <td>May 15, 2024</td>
+          <td>Unfinished</td>
+  
+        </tr>
+   
+      </tbody>
+    </table>
+  </div>
+
+
+ 
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

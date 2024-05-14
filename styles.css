@@ -12,27 +12,34 @@
     display: block;
   }
   /* Adjust the position and size of the blocks as needed */
-.block1 {
-    top: 44%;
-    left: 33%;
-    width: 16%;
-    height: 30%;
-    opacity: 20%;
+.blk9A {
+    top: 62.5%;
+    left: 35.8%;
+    width: 8%;
+    height: 30.5%;
+    opacity: 100%;
   }
- /* Adjust the position and size of the blocks as needed */
- .block2 {
-    top: 37%;
-    left: 33%;
-    width: 16%;
-    height: 30%;
-    opacity: 20%;
+ 
+  .blk9A img {
+    transition: transform 0.3s ease;
   }
+  .blk9A:hover img {
+    transform: scale(1.1);
+  }
+
    /* Adjust the position and size of the blocks as needed */
- .block3 {
+ .blk14A {
     top: 37%;
     left: 71%;
     width: 25%;
     height: 30%;
     opacity: 20%;
   }
+
+  body
+  {
+    font-family: Roboto, Arial, sans-serif; 
+  }
+
+
   /* Add more styles for additional blocks */
